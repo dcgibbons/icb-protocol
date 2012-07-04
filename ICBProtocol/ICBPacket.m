@@ -66,19 +66,25 @@
     fields = [NSMutableArray arrayWithCapacity:10];
     packetType = ((char *)bytes)[0];
     
-    for (NSUInteger i = 1, fieldStart = 1; i < length; i++) {
+    for (NSUInteger i = 1, fieldStart = 1; i <= length; i++) {
         const char c = ((const char *)bytes)[i];
         if (c == '\000' || c == '\001') {
+            NSUInteger l = i - fieldStart;
             NSString *s = [[NSString alloc]
                            initWithBytesNoCopy:(void *)&bytes[fieldStart] // ack!
-                           length:(i - fieldStart)
+                           length:l
                            encoding:NSASCIIStringEncoding 
                            freeWhenDone:FALSE];
+            
             [fields addObject:s];
+
+            DLog(@"ICBPacket: initWithData fieldStart=%u length=%u s=%@\n", 
+                 fieldStart, l, s);
+            
+            fieldStart = i + 1;
         }
     }
-    
-    // TODO: what if data is not terminated? hmmm
+    // TODO: handle error scenario where data is not terminated
     
     return self;
 }
@@ -92,19 +98,19 @@
     
     NSUInteger pos = 1;
     for (NSUInteger i = 0, n = [fields count]; i < n; i++) {
-        NSString *s = [fields objectAtIndex:i];
-        NSLog(@"field [%u]=%@", i, s);
+        NSString *field = [fields objectAtIndex:i];
+        DLog(@"field [%u]=%@", i, field);
         
         NSUInteger used;
-        [s getBytes:&bytes[pos]
-          maxLength:(MAX_PACKET_SIZE - pos) 
-         usedLength:&used
-           encoding:NSASCIIStringEncoding
-            options:NSStringEncodingConversionAllowLossy
-              range:NSRangeFromString(s) 
-     remainingRange:NULL];
+        [field getBytes:&bytes[pos]
+              maxLength:(MAX_PACKET_SIZE - pos) 
+             usedLength:&used
+               encoding:NSASCIIStringEncoding
+                options:NSStringEncodingConversionAllowLossy
+                  range:NSRangeFromString(field) 
+         remainingRange:NULL];
         pos += used;
-        NSLog(@"used = %u", used);
+        DLog(@"ICBPacket: data used = %u", used);
     }
     
     bytes[pos] = '\000';

@@ -11,5 +11,8 @@
 @interface ProtocolPacket : ICBPacket
 
 - (id)initWithData:(NSData *)bytes;
+- (int)protocolLevel;
+- (NSString *)serverName;
+- (NSString *)serverDescription;
 
 @end

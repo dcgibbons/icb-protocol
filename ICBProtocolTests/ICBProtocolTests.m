@@ -27,8 +27,13 @@
 
 - (void)testProtocolPacket
 {
-    NSData *data = [@"j1www.icb.net\1ICB Server v1.2c" dataUsingEncoding:NSASCIIStringEncoding];
+    NSData *data = [@"j1\1www.icb.net\1ICB Server v1.2c" dataUsingEncoding:NSASCIIStringEncoding];
+ 
     ProtocolPacket *packet = [ICBPacket packetWithBuffer:data];
     STAssertNotNil(packet, @"unable to create ProtocolPacket");
+    
+    STAssertEquals([packet protocolLevel], 1, @"invalid protocol level");
+    STAssertEqualObjects([packet serverName], @"www.icb.net", @"invalid server name");
+    STAssertEqualObjects([packet serverDescription], @"ICB Server v1.2c", @"invalid server description");
 }
 @end
