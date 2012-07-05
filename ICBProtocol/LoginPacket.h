@@ -11,5 +11,7 @@
 @interface LoginPacket : ICBPacket
 
 - (id)initWithData:(NSData *)bytes;
-
+- (id)initWithUserDetails:(NSString *)userId nick:(NSString*)nick group:(NSString *)group command:(NSString *)command
+                 password:(NSString *)password;
+    
 @end

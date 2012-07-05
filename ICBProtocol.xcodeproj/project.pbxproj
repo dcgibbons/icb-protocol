@@ -22,6 +22,22 @@
 		C293AF7A15A41712003FDA51 /* LoginPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF7815A41712003FDA51 /* LoginPacket.m */; };
 		C293AF7E15A4182A003FDA51 /* ProtocolPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7C15A4182A003FDA51 /* ProtocolPacket.h */; };
 		C293AF7F15A4182A003FDA51 /* ProtocolPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF7D15A4182A003FDA51 /* ProtocolPacket.m */; };
+		C293AF8415A516BA003FDA51 /* BeepPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8215A516BA003FDA51 /* BeepPacket.h */; };
+		C293AF8515A516BA003FDA51 /* BeepPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8315A516BA003FDA51 /* BeepPacket.m */; };
+		C293AF8815A5F0E2003FDA51 /* ErrorPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8615A5F0E2003FDA51 /* ErrorPacket.h */; };
+		C293AF8915A5F0E2003FDA51 /* ErrorPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8715A5F0E2003FDA51 /* ErrorPacket.m */; };
+		C293AF8C15A5F461003FDA51 /* ExitPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8A15A5F460003FDA51 /* ExitPacket.h */; };
+		C293AF8D15A5F461003FDA51 /* ExitPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8B15A5F460003FDA51 /* ExitPacket.m */; };
+		C293AF9015A5F5EB003FDA51 /* OpenPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8E15A5F5EB003FDA51 /* OpenPacket.h */; };
+		C293AF9115A5F5EB003FDA51 /* OpenPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8F15A5F5EB003FDA51 /* OpenPacket.m */; };
+		C293AF9415A5F7AF003FDA51 /* PersonalPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9215A5F7AE003FDA51 /* PersonalPacket.h */; };
+		C293AF9515A5F7AF003FDA51 /* PersonalPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9315A5F7AE003FDA51 /* PersonalPacket.m */; };
+		C293AF9815A5F871003FDA51 /* PingPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9615A5F871003FDA51 /* PingPacket.h */; };
+		C293AF9915A5F871003FDA51 /* PingPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9715A5F871003FDA51 /* PingPacket.m */; };
+		C293AF9C15A5F8D1003FDA51 /* PongPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9A15A5F8D0003FDA51 /* PongPacket.h */; };
+		C293AF9D15A5F8D1003FDA51 /* PongPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9B15A5F8D0003FDA51 /* PongPacket.m */; };
+		C293AFA015A5FB47003FDA51 /* StatusPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9E15A5FB47003FDA51 /* StatusPacket.h */; };
+		C293AFA115A5FB47003FDA51 /* StatusPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9F15A5FB47003FDA51 /* StatusPacket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +105,22 @@
 		C293AF7815A41712003FDA51 /* LoginPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPacket.m; sourceTree = "<group>"; };
 		C293AF7C15A4182A003FDA51 /* ProtocolPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolPacket.h; sourceTree = "<group>"; };
 		C293AF7D15A4182A003FDA51 /* ProtocolPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolPacket.m; sourceTree = "<group>"; };
+		C293AF8215A516BA003FDA51 /* BeepPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeepPacket.h; sourceTree = "<group>"; };
+		C293AF8315A516BA003FDA51 /* BeepPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeepPacket.m; sourceTree = "<group>"; };
+		C293AF8615A5F0E2003FDA51 /* ErrorPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorPacket.h; sourceTree = "<group>"; };
+		C293AF8715A5F0E2003FDA51 /* ErrorPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorPacket.m; sourceTree = "<group>"; };
+		C293AF8A15A5F460003FDA51 /* ExitPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExitPacket.h; sourceTree = "<group>"; };
+		C293AF8B15A5F460003FDA51 /* ExitPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExitPacket.m; sourceTree = "<group>"; };
+		C293AF8E15A5F5EB003FDA51 /* OpenPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenPacket.h; sourceTree = "<group>"; };
+		C293AF8F15A5F5EB003FDA51 /* OpenPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenPacket.m; sourceTree = "<group>"; };
+		C293AF9215A5F7AE003FDA51 /* PersonalPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalPacket.h; sourceTree = "<group>"; };
+		C293AF9315A5F7AE003FDA51 /* PersonalPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalPacket.m; sourceTree = "<group>"; };
+		C293AF9615A5F871003FDA51 /* PingPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingPacket.h; sourceTree = "<group>"; };
+		C293AF9715A5F871003FDA51 /* PingPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingPacket.m; sourceTree = "<group>"; };
+		C293AF9A15A5F8D0003FDA51 /* PongPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PongPacket.h; sourceTree = "<group>"; };
+		C293AF9B15A5F8D0003FDA51 /* PongPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PongPacket.m; sourceTree = "<group>"; };
+		C293AF9E15A5FB47003FDA51 /* StatusPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusPacket.h; sourceTree = "<group>"; };
+		C293AF9F15A5FB47003FDA51 /* StatusPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusPacket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +189,22 @@
 				C293AF7815A41712003FDA51 /* LoginPacket.m */,
 				C293AF7C15A4182A003FDA51 /* ProtocolPacket.h */,
 				C293AF7D15A4182A003FDA51 /* ProtocolPacket.m */,
+				C293AF8215A516BA003FDA51 /* BeepPacket.h */,
+				C293AF8315A516BA003FDA51 /* BeepPacket.m */,
+				C293AF8615A5F0E2003FDA51 /* ErrorPacket.h */,
+				C293AF8715A5F0E2003FDA51 /* ErrorPacket.m */,
+				C293AF8A15A5F460003FDA51 /* ExitPacket.h */,
+				C293AF8B15A5F460003FDA51 /* ExitPacket.m */,
+				C293AF8E15A5F5EB003FDA51 /* OpenPacket.h */,
+				C293AF8F15A5F5EB003FDA51 /* OpenPacket.m */,
+				C293AF9215A5F7AE003FDA51 /* PersonalPacket.h */,
+				C293AF9315A5F7AE003FDA51 /* PersonalPacket.m */,
+				C293AF9615A5F871003FDA51 /* PingPacket.h */,
+				C293AF9715A5F871003FDA51 /* PingPacket.m */,
+				C293AF9A15A5F8D0003FDA51 /* PongPacket.h */,
+				C293AF9B15A5F8D0003FDA51 /* PongPacket.m */,
+				C293AF9E15A5FB47003FDA51 /* StatusPacket.h */,
+				C293AF9F15A5FB47003FDA51 /* StatusPacket.m */,
 			);
 			path = ICBProtocol;
 			sourceTree = "<group>";
@@ -209,6 +257,14 @@
 				C293AF7415A416BF003FDA51 /* ICBPacket.h in Headers */,
 				C293AF7915A41712003FDA51 /* LoginPacket.h in Headers */,
 				C293AF7E15A4182A003FDA51 /* ProtocolPacket.h in Headers */,
+				C293AF8415A516BA003FDA51 /* BeepPacket.h in Headers */,
+				C293AF8815A5F0E2003FDA51 /* ErrorPacket.h in Headers */,
+				C293AF8C15A5F461003FDA51 /* ExitPacket.h in Headers */,
+				C293AF9015A5F5EB003FDA51 /* OpenPacket.h in Headers */,
+				C293AF9415A5F7AF003FDA51 /* PersonalPacket.h in Headers */,
+				C293AF9815A5F871003FDA51 /* PingPacket.h in Headers */,
+				C293AF9C15A5F8D1003FDA51 /* PongPacket.h in Headers */,
+				C293AFA015A5FB47003FDA51 /* StatusPacket.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +409,14 @@
 				C293AF7515A416BF003FDA51 /* ICBPacket.m in Sources */,
 				C293AF7A15A41712003FDA51 /* LoginPacket.m in Sources */,
 				C293AF7F15A4182A003FDA51 /* ProtocolPacket.m in Sources */,
+				C293AF8515A516BA003FDA51 /* BeepPacket.m in Sources */,
+				C293AF8915A5F0E2003FDA51 /* ErrorPacket.m in Sources */,
+				C293AF8D15A5F461003FDA51 /* ExitPacket.m in Sources */,
+				C293AF9115A5F5EB003FDA51 /* OpenPacket.m in Sources */,
+				C293AF9515A5F7AF003FDA51 /* PersonalPacket.m in Sources */,
+				C293AF9915A5F871003FDA51 /* PingPacket.m in Sources */,
+				C293AF9D15A5F8D1003FDA51 /* PongPacket.m in Sources */,
+				C293AFA115A5FB47003FDA51 /* StatusPacket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

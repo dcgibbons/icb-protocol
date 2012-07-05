@@ -7,8 +7,16 @@
 //
 
 #import "ICBPacket.h"
+#import "BeepPacket.h"
+#import "ErrorPacket.h"
+#import "ExitPacket.h"
 #import "LoginPacket.h"
+#import "OpenPacket.h"
+#import "PersonalPacket.h"
+#import "PingPacket.h"
+#import "PongPacket.h"
 #import "ProtocolPacket.h"
+#import "StatusPacket.h"
 
 @implementation ICBPacket
 
@@ -23,16 +31,20 @@
             packet = [[LoginPacket alloc] initWithData:data];
             break;
         case OPEN:
+            packet = [[OpenPacket alloc] initWithData:data];
             break;
         case PERSONAL:
+            packet = [[PersonalPacket alloc] initWithData:data];
             break;
         case STATUS:
+        case IMPORTANT:
+            packet = [[StatusPacket alloc] initWithData:data];
             break;
         case ERROR:
-            break;
-        case IMPORTANT:
+            packet = [[ErrorPacket alloc] initWithData:data];
             break;
         case EXIT:
+            packet = [[ExitPacket alloc] initWithData:data];
             break;
         case COMMAND:
             break;
@@ -42,10 +54,13 @@
             packet = [[ProtocolPacket alloc] initWithData:data];
             break;
         case BEEP:
+            packet = [[BeepPacket alloc] initWithData:data];
             break;
         case PING:
+            packet = [[PingPacket alloc] initWithData:data];
             break;
         case PONG:
+            packet = [[PongPacket alloc] initWithData:data];
             break;
         case NOOP:
             break;
@@ -66,7 +81,9 @@
     fields = [NSMutableArray arrayWithCapacity:10];
     packetType = ((char *)bytes)[0];
     
-    for (NSUInteger i = 1, fieldStart = 1; i <= length; i++) {
+    NSUInteger i, fieldStart;
+    for (i = 1, fieldStart = 1; i <= length; i++) {
+        DLog(@"i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
         const char c = ((const char *)bytes)[i];
         if (c == '\000' || c == '\001') {
             NSUInteger l = i - fieldStart;
@@ -84,8 +101,16 @@
             fieldStart = i + 1;
         }
     }
-    // TODO: handle error scenario where data is not terminated
-    
+    DLog(@"LOOP DONE i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
+    if (fieldStart < length)
+    {
+        NSString *s = [[NSString alloc]
+                       initWithBytesNoCopy:(void*)&bytes[fieldStart]
+                       length:length-fieldStart encoding:NSASCIIStringEncoding freeWhenDone:FALSE];
+        [fields addObject:s];
+        DLog(@"ICBPacket: initWithData added last field s=%@\n", s);
+    }
+
     return self;
 }
 
