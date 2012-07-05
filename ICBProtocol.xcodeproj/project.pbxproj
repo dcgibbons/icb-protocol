@@ -15,7 +15,6 @@
 		C293AF3F15A415D4003FDA51 /* libICBProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF2715A415D4003FDA51 /* libICBProtocol.a */; };
 		C293AF4515A415D4003FDA51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C293AF4315A415D4003FDA51 /* InfoPlist.strings */; };
 		C293AF4815A415D4003FDA51 /* ICBProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF4715A415D4003FDA51 /* ICBProtocolTests.m */; };
-		C293AF6515A4160C003FDA51 /* libDebugKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF6015A415EE003FDA51 /* libDebugKitLibrary.a */; };
 		C293AF7415A416BF003FDA51 /* ICBPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7215A416BF003FDA51 /* ICBPacket.h */; };
 		C293AF7515A416BF003FDA51 /* ICBPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF7315A416BF003FDA51 /* ICBPacket.m */; };
 		C293AF7915A41712003FDA51 /* LoginPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7715A41712003FDA51 /* LoginPacket.h */; };
@@ -128,7 +127,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C293AF6515A4160C003FDA51 /* libDebugKitLibrary.a in Frameworks */,
 				C293AF2B15A415D4003FDA51 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,7 +456,6 @@
 		C293AF4915A415D4003FDA51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
@@ -480,14 +477,13 @@
 					"-all_load",
 				);
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../../../DebugKit/DebugKit/**";
+				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}";
 			};
 			name = Debug;
 		};
 		C293AF4A15A415D4003FDA51 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
@@ -502,7 +498,7 @@
 					"-all_load",
 				);
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../../../DebugKit/DebugKit/**";
+				USER_HEADER_SEARCH_PATHS = "${BUILT_PRODUCTS_DIR}";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -514,8 +510,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICBProtocol/ICBProtocol-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -526,8 +520,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICBProtocol/ICBProtocol-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};
@@ -542,7 +534,6 @@
 				GCC_PREFIX_HEADER = "ICBProtocol/ICBProtocol-Prefix.pch";
 				INFOPLIST_FILE = "ICBProtocolTests/ICBProtocolTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../../../DebugKit/DebugKit/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -558,7 +549,6 @@
 				GCC_PREFIX_HEADER = "ICBProtocol/ICBProtocol-Prefix.pch";
 				INFOPLIST_FILE = "ICBProtocolTests/ICBProtocolTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/../../../DebugKit/DebugKit/**";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -582,6 +572,7 @@
 				C293AF4D15A415D4003FDA51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C293AF4E15A415D4003FDA51 /* Build configuration list for PBXNativeTarget "ICBProtocolTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +581,7 @@
 				C293AF5015A415D4003FDA51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
