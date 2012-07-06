@@ -18,6 +18,8 @@
 
 + (id)packetWithBuffer:(NSData *)data;
 
+- (id)init;
 - (id)initWithData:(NSData *)data;
+- (NSData *)data;
 
 @end

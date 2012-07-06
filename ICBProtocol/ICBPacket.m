@@ -70,6 +70,16 @@
     return packet;
 }
 
+- (id)init
+{
+    if (self = [super init])
+    {
+        fields = [NSMutableArray arrayWithCapacity:10];
+        packetType = INVALID;
+    }
+    return self;
+}
+
 - (id)initWithData:(NSData *)data
 {
     NSLog(@"ICBPacket initWithData:data=\n%@\n", [data hexDump]);
@@ -116,31 +126,42 @@
 
 - (NSData *)data
 {
-    NSMutableData* data = [NSMutableData dataWithCapacity:MAX_PACKET_SIZE];
-    
-    char *bytes = (char *)[data mutableBytes];
-    bytes[0] = packetType;
+    uint8_t buffer[MAX_PACKET_SIZE];
+    buffer[0] = packetType;
     
     NSUInteger pos = 1;
-    for (NSUInteger i = 0, n = [fields count]; i < n; i++) {
+    for (NSUInteger i = 0, n = [fields count]; i < n; i++)
+    {
         NSString *field = [fields objectAtIndex:i];
-        DLog(@"field [%u]=%@", i, field);
         
-        NSUInteger used;
-        [field getBytes:&bytes[pos]
-              maxLength:(MAX_PACKET_SIZE - pos) 
-             usedLength:&used
-               encoding:NSASCIIStringEncoding
-                options:NSStringEncodingConversionAllowLossy
-                  range:NSRangeFromString(field) 
-         remainingRange:NULL];
+        NSUInteger used = 0;
+        const NSUInteger maxLength = (MAX_PACKET_SIZE - pos);
+        BOOL success = [field getBytes:&buffer[pos]
+                             maxLength:maxLength
+                            usedLength:&used
+                              encoding:NSASCIIStringEncoding
+                               options:0
+                                 range:NSMakeRange(0, [field length])
+                        remainingRange:NULL];
+
+        DLog(@"ICBPacket: data, success=%u field=[%u]=%@ fields=%u pos=%u max=%u used=%u", success, i, field, n, pos, maxLength, used);
+        
         pos += used;
-        DLog(@"ICBPacket: data used = %u", used);
+
+        // add a field separator if this isn't the last field
+        if (i + 1 < n) 
+        {
+            buffer[pos++] = '\001';
+        }
+        
+        NSAssert(pos <= MAX_PACKET_SIZE, @"packet buffer overflow");
     }
-    
-    bytes[pos] = '\000';
-    [data setLength:pos+1];
-    return [NSData dataWithData:data];
+
+    buffer[pos] = '\000';
+
+    NSData *data = [NSData dataWithBytes:buffer length:pos];
+    DLog(@"ICBPacket: packet data=\n%@", [data hexDump]);
+    return data;
 }
 
 @end

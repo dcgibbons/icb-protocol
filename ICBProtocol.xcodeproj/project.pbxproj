@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C263B65215A650B300F5714E /* ICBProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF2F15A415D4003FDA51 /* ICBProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF2B15A415D4003FDA51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF2A15A415D4003FDA51 /* Foundation.framework */; };
 		C293AF3115A415D4003FDA51 /* ICBProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF3015A415D4003FDA51 /* ICBProtocol.m */; };
 		C293AF3915A415D4003FDA51 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF3815A415D4003FDA51 /* SenTestingKit.framework */; };
@@ -15,27 +16,27 @@
 		C293AF3F15A415D4003FDA51 /* libICBProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF2715A415D4003FDA51 /* libICBProtocol.a */; };
 		C293AF4515A415D4003FDA51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C293AF4315A415D4003FDA51 /* InfoPlist.strings */; };
 		C293AF4815A415D4003FDA51 /* ICBProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF4715A415D4003FDA51 /* ICBProtocolTests.m */; };
-		C293AF7415A416BF003FDA51 /* ICBPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7215A416BF003FDA51 /* ICBPacket.h */; };
+		C293AF7415A416BF003FDA51 /* ICBPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7215A416BF003FDA51 /* ICBPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF7515A416BF003FDA51 /* ICBPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF7315A416BF003FDA51 /* ICBPacket.m */; };
-		C293AF7915A41712003FDA51 /* LoginPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7715A41712003FDA51 /* LoginPacket.h */; };
+		C293AF7915A41712003FDA51 /* LoginPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7715A41712003FDA51 /* LoginPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF7A15A41712003FDA51 /* LoginPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF7815A41712003FDA51 /* LoginPacket.m */; };
-		C293AF7E15A4182A003FDA51 /* ProtocolPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7C15A4182A003FDA51 /* ProtocolPacket.h */; };
+		C293AF7E15A4182A003FDA51 /* ProtocolPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF7C15A4182A003FDA51 /* ProtocolPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF7F15A4182A003FDA51 /* ProtocolPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF7D15A4182A003FDA51 /* ProtocolPacket.m */; };
-		C293AF8415A516BA003FDA51 /* BeepPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8215A516BA003FDA51 /* BeepPacket.h */; };
+		C293AF8415A516BA003FDA51 /* BeepPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8215A516BA003FDA51 /* BeepPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF8515A516BA003FDA51 /* BeepPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8315A516BA003FDA51 /* BeepPacket.m */; };
-		C293AF8815A5F0E2003FDA51 /* ErrorPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8615A5F0E2003FDA51 /* ErrorPacket.h */; };
+		C293AF8815A5F0E2003FDA51 /* ErrorPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8615A5F0E2003FDA51 /* ErrorPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF8915A5F0E2003FDA51 /* ErrorPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8715A5F0E2003FDA51 /* ErrorPacket.m */; };
-		C293AF8C15A5F461003FDA51 /* ExitPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8A15A5F460003FDA51 /* ExitPacket.h */; };
+		C293AF8C15A5F461003FDA51 /* ExitPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8A15A5F460003FDA51 /* ExitPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF8D15A5F461003FDA51 /* ExitPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8B15A5F460003FDA51 /* ExitPacket.m */; };
-		C293AF9015A5F5EB003FDA51 /* OpenPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8E15A5F5EB003FDA51 /* OpenPacket.h */; };
+		C293AF9015A5F5EB003FDA51 /* OpenPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF8E15A5F5EB003FDA51 /* OpenPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF9115A5F5EB003FDA51 /* OpenPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF8F15A5F5EB003FDA51 /* OpenPacket.m */; };
-		C293AF9415A5F7AF003FDA51 /* PersonalPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9215A5F7AE003FDA51 /* PersonalPacket.h */; };
+		C293AF9415A5F7AF003FDA51 /* PersonalPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9215A5F7AE003FDA51 /* PersonalPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF9515A5F7AF003FDA51 /* PersonalPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9315A5F7AE003FDA51 /* PersonalPacket.m */; };
-		C293AF9815A5F871003FDA51 /* PingPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9615A5F871003FDA51 /* PingPacket.h */; };
+		C293AF9815A5F871003FDA51 /* PingPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9615A5F871003FDA51 /* PingPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF9915A5F871003FDA51 /* PingPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9715A5F871003FDA51 /* PingPacket.m */; };
-		C293AF9C15A5F8D1003FDA51 /* PongPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9A15A5F8D0003FDA51 /* PongPacket.h */; };
+		C293AF9C15A5F8D1003FDA51 /* PongPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9A15A5F8D0003FDA51 /* PongPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AF9D15A5F8D1003FDA51 /* PongPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9B15A5F8D0003FDA51 /* PongPacket.m */; };
-		C293AFA015A5FB47003FDA51 /* StatusPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9E15A5FB47003FDA51 /* StatusPacket.h */; };
+		C293AFA015A5FB47003FDA51 /* StatusPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF9E15A5FB47003FDA51 /* StatusPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C293AFA115A5FB47003FDA51 /* StatusPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF9F15A5FB47003FDA51 /* StatusPacket.m */; };
 /* End PBXBuildFile section */
 
@@ -263,6 +264,7 @@
 				C293AF9815A5F871003FDA51 /* PingPacket.h in Headers */,
 				C293AF9C15A5F8D1003FDA51 /* PongPacket.h in Headers */,
 				C293AFA015A5FB47003FDA51 /* StatusPacket.h in Headers */,
+				C263B65215A650B300F5714E /* ICBProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
