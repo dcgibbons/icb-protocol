@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C263B65215A650B300F5714E /* ICBProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C293AF2F15A415D4003FDA51 /* ICBProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C263B65C15A75EAB00F5714E /* CommandPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C263B65A15A75EAB00F5714E /* CommandPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C263B65D15A75EAB00F5714E /* CommandPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C263B65B15A75EAB00F5714E /* CommandPacket.m */; };
+		C263B65E15A7621A00F5714E /* libDebugKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF6015A415EE003FDA51 /* libDebugKitLibrary.a */; };
+		C263B66115A7647600F5714E /* CommandOutputPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C263B65F15A7647600F5714E /* CommandOutputPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C263B66215A7647600F5714E /* CommandOutputPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C263B66015A7647600F5714E /* CommandOutputPacket.m */; };
 		C293AF2B15A415D4003FDA51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF2A15A415D4003FDA51 /* Foundation.framework */; };
 		C293AF3115A415D4003FDA51 /* ICBProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = C293AF3015A415D4003FDA51 /* ICBProtocol.m */; };
 		C293AF3915A415D4003FDA51 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C293AF3815A415D4003FDA51 /* SenTestingKit.framework */; };
@@ -86,6 +91,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C263B65A15A75EAB00F5714E /* CommandPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandPacket.h; sourceTree = "<group>"; };
+		C263B65B15A75EAB00F5714E /* CommandPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandPacket.m; sourceTree = "<group>"; };
+		C263B65F15A7647600F5714E /* CommandOutputPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandOutputPacket.h; sourceTree = "<group>"; };
+		C263B66015A7647600F5714E /* CommandOutputPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandOutputPacket.m; sourceTree = "<group>"; };
 		C293AF2715A415D4003FDA51 /* libICBProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libICBProtocol.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C293AF2A15A415D4003FDA51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C293AF2E15A415D4003FDA51 /* ICBProtocol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICBProtocol-Prefix.pch"; sourceTree = "<group>"; };
@@ -136,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C263B65E15A7621A00F5714E /* libDebugKitLibrary.a in Frameworks */,
 				C293AF3915A415D4003FDA51 /* SenTestingKit.framework in Frameworks */,
 				C293AF3B15A415D4003FDA51 /* UIKit.framework in Frameworks */,
 				C293AF3C15A415D4003FDA51 /* Foundation.framework in Frameworks */,
@@ -190,6 +200,10 @@
 				C293AF7D15A4182A003FDA51 /* ProtocolPacket.m */,
 				C293AF8215A516BA003FDA51 /* BeepPacket.h */,
 				C293AF8315A516BA003FDA51 /* BeepPacket.m */,
+				C263B65A15A75EAB00F5714E /* CommandPacket.h */,
+				C263B65B15A75EAB00F5714E /* CommandPacket.m */,
+				C263B65F15A7647600F5714E /* CommandOutputPacket.h */,
+				C263B66015A7647600F5714E /* CommandOutputPacket.m */,
 				C293AF8615A5F0E2003FDA51 /* ErrorPacket.h */,
 				C293AF8715A5F0E2003FDA51 /* ErrorPacket.m */,
 				C293AF8A15A5F460003FDA51 /* ExitPacket.h */,
@@ -257,6 +271,8 @@
 				C293AF7915A41712003FDA51 /* LoginPacket.h in Headers */,
 				C293AF7E15A4182A003FDA51 /* ProtocolPacket.h in Headers */,
 				C293AF8415A516BA003FDA51 /* BeepPacket.h in Headers */,
+				C263B65C15A75EAB00F5714E /* CommandPacket.h in Headers */,
+				C263B66115A7647600F5714E /* CommandOutputPacket.h in Headers */,
 				C293AF8815A5F0E2003FDA51 /* ErrorPacket.h in Headers */,
 				C293AF8C15A5F461003FDA51 /* ExitPacket.h in Headers */,
 				C293AF9015A5F5EB003FDA51 /* OpenPacket.h in Headers */,
@@ -417,6 +433,8 @@
 				C293AF9915A5F871003FDA51 /* PingPacket.m in Sources */,
 				C293AF9D15A5F8D1003FDA51 /* PongPacket.m in Sources */,
 				C293AFA115A5FB47003FDA51 /* StatusPacket.m in Sources */,
+				C263B65D15A75EAB00F5714E /* CommandPacket.m in Sources */,
+				C263B66215A7647600F5714E /* CommandOutputPacket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

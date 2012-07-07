@@ -21,5 +21,6 @@
 - (id)init;
 - (id)initWithData:(NSData *)data;
 - (NSData *)data;
+- (NSString *)getFieldAtIndex:(NSUInteger)index;
 
 @end

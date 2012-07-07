@@ -8,6 +8,8 @@
 
 #import "ICBProtocolTests.h"
 #import "BeepPacket.h"
+#import "CommandPacket.h"
+#import "CommandOutputPacket.h"
 #import "ErrorPacket.h"
 #import "ExitPacket.h"
 #import "OpenPacket.h"
@@ -40,6 +42,23 @@
     STAssertNotNil(packet, @"unable to create BeepPacket");
     
     STAssertEqualObjects([packet nick], @"superman", @"invalid user nickname");
+}
+
+- (void)testCommandPacket
+{
+    NSData *data = [@"hwho\1Fred" dataUsingEncoding:NSASCIIStringEncoding];
+    CommandPacket *packet = [ICBPacket packetWithBuffer:data];
+    STAssertNotNil(packet, @"unable to create CommandPacket");
+    
+    STAssertEqualObjects([packet command], @"who", @"invalid command");
+    STAssertEqualObjects([packet args], @"Fred", @"invalid command args");
+}
+
+- (void)testCommandOutputPacket
+{
+    NSData *data = [@"igh" dataUsingEncoding:NSASCIIStringEncoding];
+    CommandOutputPacket *packet = [ICBPacket packetWithBuffer:data];
+    STAssertNotNil(packet, @"unable to create CommandOutputPacket");
 }
 
 - (void)testErrorPacket
