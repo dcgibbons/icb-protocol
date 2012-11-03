@@ -8,6 +8,8 @@
 
 #import "ICBPacket.h"
 #import "BeepPacket.h"
+#import "CommandPacket.h"
+#import "CommandOutputPacket.h"
 #import "ErrorPacket.h"
 #import "ExitPacket.h"
 #import "LoginPacket.h"
@@ -47,8 +49,10 @@
             packet = [[ExitPacket alloc] initWithData:data];
             break;
         case COMMAND:
+            packet = [[CommandPacket alloc] initWithData:data];
             break;
         case COMMAND_OUT:
+            packet = [[CommandOutputPacket alloc] initWithData:data];
             break;
         case PROTOCOL:
             packet = [[ProtocolPacket alloc] initWithData:data];
@@ -70,9 +74,19 @@
     return packet;
 }
 
+- (id)init
+{
+    if (self = [super init])
+    {
+        fields = [NSMutableArray arrayWithCapacity:10];
+        packetType = INVALID;
+    }
+    return self;
+}
+
 - (id)initWithData:(NSData *)data
 {
-    NSLog(@"ICBPacket initWithData:data=\n%@\n", [data hexDump]);
+//    DLog(@"initWithData:data=\n%@\n", [data hexDump]);
     
     const void *bytes = [data bytes];
     const NSUInteger length = [data length];
@@ -83,32 +97,29 @@
     
     NSUInteger i, fieldStart;
     for (i = 1, fieldStart = 1; i <= length; i++) {
-        DLog(@"i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
+//        DLog(@"i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
         const char c = ((const char *)bytes)[i];
         if (c == '\000' || c == '\001') {
             NSUInteger l = i - fieldStart;
             NSString *s = [[NSString alloc]
-                           initWithBytesNoCopy:(void *)&bytes[fieldStart] // ack!
-                           length:l
-                           encoding:NSASCIIStringEncoding 
-                           freeWhenDone:FALSE];
+                           initWithBytes:(void*)&bytes[fieldStart] length:l encoding:NSASCIIStringEncoding];
             
             [fields addObject:s];
 
-            DLog(@"ICBPacket: initWithData fieldStart=%u length=%u s=%@\n", 
-                 fieldStart, l, s);
-            
+//            DLog(@"ICBPacket: initWithData fieldStart=%u length=%u s=%@\n", 
+//                 fieldStart, l, s);
+//            
             fieldStart = i + 1;
         }
     }
-    DLog(@"LOOP DONE i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
+//    DLog(@"LOOP DONE i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
     if (fieldStart < length)
     {
         NSString *s = [[NSString alloc]
                        initWithBytesNoCopy:(void*)&bytes[fieldStart]
                        length:length-fieldStart encoding:NSASCIIStringEncoding freeWhenDone:FALSE];
         [fields addObject:s];
-        DLog(@"ICBPacket: initWithData added last field s=%@\n", s);
+//        DLog(@"ICBPacket: initWithData added last field s=%@\n", s);
     }
 
     return self;
@@ -116,31 +127,52 @@
 
 - (NSData *)data
 {
-    NSMutableData* data = [NSMutableData dataWithCapacity:MAX_PACKET_SIZE];
-    
-    char *bytes = (char *)[data mutableBytes];
-    bytes[0] = packetType;
+    uint8_t buffer[MAX_PACKET_SIZE];
+    buffer[0] = packetType;
     
     NSUInteger pos = 1;
-    for (NSUInteger i = 0, n = [fields count]; i < n; i++) {
+    for (NSUInteger i = 0, n = [fields count]; i < n; i++)
+    {
         NSString *field = [fields objectAtIndex:i];
-        DLog(@"field [%u]=%@", i, field);
         
-        NSUInteger used;
-        [field getBytes:&bytes[pos]
-              maxLength:(MAX_PACKET_SIZE - pos) 
-             usedLength:&used
-               encoding:NSASCIIStringEncoding
-                options:NSStringEncodingConversionAllowLossy
-                  range:NSRangeFromString(field) 
-         remainingRange:NULL];
+        NSUInteger used = 0;
+        const NSUInteger maxLength = (MAX_PACKET_SIZE - pos);
+        BOOL success = [field getBytes:&buffer[pos]
+                             maxLength:maxLength
+                            usedLength:&used
+                              encoding:NSASCIIStringEncoding
+                               options:0
+                                 range:NSMakeRange(0, [field length])
+                        remainingRange:NULL];
+
+        DLog(@"data, success=%u field=[%lu]=%@ fields=%lu pos=%lu max=%lu used=%lu", success, i, field, n, pos, maxLength, used);
+        
         pos += used;
-        DLog(@"ICBPacket: data used = %u", used);
+
+        // add a field separator if this isn't the last field
+        if (i + 1 < n) 
+        {
+            buffer[pos++] = '\001';
+        }
+        
+        NSAssert(pos <= MAX_PACKET_SIZE, @"packet buffer overflow");
     }
-    
-    bytes[pos] = '\000';
-    [data setLength:pos+1];
-    return [NSData dataWithData:data];
+
+    buffer[pos] = '\000';
+
+    NSData *data = [NSData dataWithBytes:buffer length:pos];
+//    DLog(@"packet data=\n%@", [data hexDump]);
+    return data;
+}
+
+- (NSString *)getFieldAtIndex:(NSUInteger)index
+{
+    NSString *field = nil;
+    if (index < [fields count])
+    {
+        field = [fields objectAtIndex:index];
+    }
+    return field;
 }
 
 @end

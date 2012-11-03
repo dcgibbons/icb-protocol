@@ -22,14 +22,16 @@
 - (id)initWithUserDetails:(NSString *)userId nick:(NSString*)nick group:(NSString *)group command:(NSString *)command
                  password:(NSString *)password
 {
+    // TODO: limit fields to maximum sizes!
     if (self = [super init]) {
         packetType = LOGIN;
-        [fields replaceObjectAtIndex:0 withObject:userId];
-        [fields replaceObjectAtIndex:1 withObject:nick];
-        [fields replaceObjectAtIndex:2 withObject:group];
-        [fields replaceObjectAtIndex:3 withObject:command];
-        [fields replaceObjectAtIndex:4 withObject:password];
+        [fields addObject:userId];
+        [fields addObject:nick];
+        [fields addObject:group];
+        [fields addObject:command];
+        [fields addObject:password];
     }
+    DLog(@"LoginPacket: fields=%@", fields);
     return self;
 }
 

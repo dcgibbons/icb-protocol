@@ -10,7 +10,8 @@
 
 #import "ICBProtocol.h"
 
-@interface ICBPacket : NSObject {
+@interface ICBPacket : NSObject
+{
 @protected
     kPacketType packetType;
     NSMutableArray *fields;
@@ -18,6 +19,9 @@
 
 + (id)packetWithBuffer:(NSData *)data;
 
+- (id)init;
 - (id)initWithData:(NSData *)data;
+- (NSData *)data;
+- (NSString *)getFieldAtIndex:(NSUInteger)index;
 
 @end

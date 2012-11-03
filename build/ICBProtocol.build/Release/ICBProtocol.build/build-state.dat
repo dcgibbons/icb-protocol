@@ -1,0 +1,494 @@
+TICBProtocol
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.pth ICBProtocol/ICBProtocol-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000005073342C00000000000025C8
+t1349727276
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005073342C00000000000015F7
+t1349727276
+s5623
+
+N/Users/chadwick/Projects/DebugKit/build/Release-iphoneos/libDebugKit.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/BeepPacket.h
+c00000000508F37BE0000000000000112
+t1351563198
+s274
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/BeepPacket.m
+c00000000508F37BE00000000000001DB
+t1351563198
+s475
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.h
+c00000000508F37BE0000000000000118
+t1351563198
+s280
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m
+c00000000508F37BE00000000000001F0
+t1351563198
+s496
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.h
+c00000000508F37BE00000000000000D9
+t1351563198
+s217
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m
+c00000000508F37BE00000000000000D3
+t1351563198
+s211
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h
+c00000000508F37BE000000000000018E
+t1351563198
+s398
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m
+c00000000508F37BE00000000000010E8
+t1351563198
+s4328
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol-Prefix.pch
+c00000000508F37BE00000000000000A1
+t1351563198
+s161
+i<Foundation/Foundation.h>
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h
+c00000000508F407400000000000002FA
+t1351565428
+s762
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m
+c00000000508F37BE0000000000000224
+t1351563198
+s548
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.h
+c00000000508F37BE00000000000001AA
+t1351563198
+s426
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m
+c00000000508F37BE000000000000037B
+t1351563198
+s891
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.h
+c00000000508F37BE0000000000000102
+t1351563198
+s258
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m
+c00000000508F37BE00000000000001D3
+t1351563198
+s467
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.h
+c00000000508F37BE000000000000010A
+t1351563198
+s266
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m
+c00000000508F37BE00000000000001DF
+t1351563198
+s479
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.h
+c00000000508F37BE00000000000000D9
+t1351563198
+s217
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m
+c00000000508F37BE00000000000000D3
+t1351563198
+s211
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PongPacket.h
+c00000000508F37BE00000000000000D9
+t1351563198
+s217
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PongPacket.m
+c00000000508F37BE00000000000000D3
+t1351563198
+s211
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ProtocolPacket.h
+c00000000508F37BE0000000000000157
+t1351563198
+s343
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ProtocolPacket.m
+c00000000508F37BE0000000000000396
+t1351563198
+s918
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/StatusPacket.h
+c00000000508F37BE0000000000000108
+t1351563198
+s264
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/StatusPacket.m
+c00000000508F37BE00000000000001E7
+t1351563198
+s487
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/BeepPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.LinkFileList
+c00000000508F40F20000000000000660
+t1351565554
+s1632
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PongPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ProtocolPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/StatusPacket.o
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/libICBProtocol.a
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/BeepPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/ErrorPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/ExitPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/ICBPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/ICBProtocol.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/LoginPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/OpenPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/PersonalPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/PingPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/PongPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/ProtocolPacket.h
+t2
+s0
+
+N/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/usr/local/include/StatusPacket.h
+t2
+s0
+
+N/var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0ef8f072783fb641^25cbf172783fb641^---0#1#0#--18"Check dependencies36"14AB104B-3982-4586-9262-6BA553EB3CF5-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/BeepPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/BeepPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403520
+e373258355.440780
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.h:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.maf7b6773783fb641^ef587473783fb641^-493"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.h:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'DebugKit/DebugKit.h' file not found-373258355#18446744073709551615#0#3(2@100"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m0000000000000000^8#8#8#8#163#0#21"Clang LLVM 1.0 Notice--2@100"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.h:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.h0000000000000000^8#8#8#8#163#0#21"Clang LLVM 1.0 Notice--2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h0000000000000000^10#8#10#8#196#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h0000000000000000^9#8#9#8#197#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m0000000000000000^3398"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.o ICBProtocol/ErrorPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ErrorPacket.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ErrorPacket.o36"125E3ECF-7227-4DB6-ABAD-79E5BB076E23-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403599
+e373258355.440667
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.h:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m13806773783fb641^7fda7073783fb641^-491"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.h:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'DebugKit/DebugKit.h' file not found-373258355#18446744073709551615#0#3(2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m0000000000000000^8#8#8#8#162#0#21"Clang LLVM 1.0 Notice--2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.h:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.h0000000000000000^8#8#8#8#162#0#21"Clang LLVM 1.0 Notice--2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h0000000000000000^10#8#10#8#196#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h0000000000000000^9#8#9#8#197#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m0000000000000000^3392"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.o ICBProtocol/ExitPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ExitPacket.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ExitPacket.o36"33595BB9-198B-466C-9F97-38632FD02819-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403574
+e373258355.440484
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.me97d6773783fb641^bedb7073783fb641^-390"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'DebugKit/DebugKit.h' file not found-373258355#18446744073709551615#0#2(2@98"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@89"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m0000000000000000^8#8#8#8#161#0#21"Clang LLVM 1.0 Notice--2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h0000000000000000^10#8#10#8#196#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h0000000000000000^9#8#9#8#197#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@89"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m0000000000000000^3386"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.o ICBProtocol/ICBPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBPacket.o36"48E235E5-B5B4-46B8-BE0B-5FFDCB79C169-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403609
+e373258355.440270
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m:9:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.mae7f6773783fb641^9dd77073783fb641^-292"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m:9:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'DebugKit/DebugKit.h' file not found-373258355#18446744073709551615#0#1(2@100"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m0000000000000000^8#8#8#8#163#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h0000000000000000^9#8#9#8#197#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m0000000000000000^3398"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.o ICBProtocol/ICBProtocol.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ICBProtocol.o36"BFA64B6E-9965-4395-BB54-537A22C2F420-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403626
+e373258355.440556
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.h:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.md47e6773783fb641^09de7073783fb641^-493"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.h:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'DebugKit/DebugKit.h' file not found-373258355#18446744073709551615#0#3(2@100"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m0000000000000000^8#8#8#8#163#0#21"Clang LLVM 1.0 Notice--2@100"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.h:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.h0000000000000000^8#8#8#8#163#0#21"Clang LLVM 1.0 Notice--2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h0000000000000000^10#8#10#8#196#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h0000000000000000^9#8#9#8#197#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m0000000000000000^3398"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.o ICBProtocol/LoginPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/LoginPacket.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/LoginPacket.o36"9BB12F3C-689F-4C11-B246-8EDA039B68E6-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403645
+e373258355.540904
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.h:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m27836773783fb641^fe7d8a73783fb641^-491"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.h:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m0000000000000000^3392"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.o ICBProtocol/OpenPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/OpenPacket.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/OpenPacket.o36"D4A668B0-7D20-401E-8B60-37C9BCA6EB7F-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403691
+e373258355.540918
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.h:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.mdc846773783fb641^b1a28a73783fb641^-499"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.h:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m0000000000000000^3416"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.o ICBProtocol/PersonalPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PersonalPacket.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PersonalPacket.o36"9D36DF24-D322-48FC-B258-2A9933E665DF-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258355.403810
+e373258355.440514
+r0
+xCompileC
+xbuild/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.o
+x/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.h:9:
+oIn file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:
+o/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found
+o#import <DebugKit/DebugKit.h>
+o        ^
+o1 error generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m2f856773783fb641^ecdc7073783fb641^-491"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.h:9:In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h:10:9: fatal error: 'DebugKit/DebugKit.h' file not found#import <DebugKit/DebugKit.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@36"'DebugKit/DebugKit.h' file not found-373258355#18446744073709551615#0#3(2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m0000000000000000^8#8#8#8#162#0#21"Clang LLVM 1.0 Notice--2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.h:9:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.h0000000000000000^8#8#8#8#162#0#21"Clang LLVM 1.0 Notice--2@99"In file included from /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h:11:-373258355#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@89"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBPacket.h0000000000000000^10#8#10#8#196#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol.h0000000000000000^9#8#9#8#197#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m0000000000000000^3392"CompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.o ICBProtocol/PingPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch -MMD -MT dependencies -MF /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.d --serialize-diagnostics /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PingPacket.m -o /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PingPacket.o36"F27A0356-BA6F-4C49-AE5C-CA5D98BF2A45-
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/PongPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/PongPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/ProtocolPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ProtocolPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ICBProtocol.build/Release/ICBProtocol.build/Objects-normal/x86_64/StatusPacket.o /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/StatusPacket.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpHeader ICBProtocol/BeepPacket.h build/Release/usr/local/include/BeepPacket.h
+r0
+
+CCpHeader ICBProtocol/ErrorPacket.h build/Release/usr/local/include/ErrorPacket.h
+r0
+
+CCpHeader ICBProtocol/ExitPacket.h build/Release/usr/local/include/ExitPacket.h
+r0
+
+CCpHeader ICBProtocol/ICBPacket.h build/Release/usr/local/include/ICBPacket.h
+r0
+
+CCpHeader ICBProtocol/ICBProtocol.h build/Release/usr/local/include/ICBProtocol.h
+r0
+
+CCpHeader ICBProtocol/LoginPacket.h build/Release/usr/local/include/LoginPacket.h
+r0
+
+CCpHeader ICBProtocol/OpenPacket.h build/Release/usr/local/include/OpenPacket.h
+r0
+
+CCpHeader ICBProtocol/PersonalPacket.h build/Release/usr/local/include/PersonalPacket.h
+r0
+
+CCpHeader ICBProtocol/PingPacket.h build/Release/usr/local/include/PingPacket.h
+r0
+
+CCpHeader ICBProtocol/PongPacket.h build/Release/usr/local/include/PongPacket.h
+r0
+
+CCpHeader ICBProtocol/ProtocolPacket.h build/Release/usr/local/include/ProtocolPacket.h
+r0
+
+CCpHeader ICBProtocol/StatusPacket.h build/Release/usr/local/include/StatusPacket.h
+r0
+
+CLibtool /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/libICBProtocol.a normal x86_64
+r0
+
+CProcessPCH /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.pth ICBProtocol/ICBProtocol-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373258354.950117
+e373258355.396758
+r1
+xProcessPCH
+x/var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.pth
+xICBProtocol/ICBProtocol-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile ICBProtocol/ICBProtocol-Prefix.pchd254f372783fb641^de916573783fb641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol-Prefix.pch0000000000000000^3429"ProcessPCH /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.pth ICBProtocol/ICBProtocol-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chadwick/Projects/icb/protocol/ICBProtocol    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-generated-files.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-own-target-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-all-target-headers.hmap -iquote /Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/ICBProtocol-project-headers.hmap -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources/x86_64 -I/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/ICBProtocol.build/Release/ICBProtocol.build/DerivedSources -F/Users/chadwick/Projects/icb/protocol/ICBProtocol/build/Release -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.dia -c /Users/chadwick/Projects/icb/protocol/ICBProtocol/ICBProtocol/ICBProtocol-Prefix.pch -o /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/hn/hszxpngj18q1903xxtpr7w8w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ICBProtocol-Prefix-blmevanlnxvrxddpmwwdmhjuqboe/ICBProtocol-Prefix.pch.d36"9A7D6228-1926-4403-AAC7-25D6D9D8E649-
+

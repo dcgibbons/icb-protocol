@@ -10,6 +10,16 @@
 
 @implementation OpenPacket
 
+- (id)initWithText:(NSString *)text
+{
+    if (self = [super init])
+    {
+        packetType = OPEN;
+        [fields addObject:text];
+    }
+    return self;
+}
+
 - (NSString *)nick
 {
     NSString *nick = [fields objectAtIndex:0];

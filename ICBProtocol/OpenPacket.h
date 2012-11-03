@@ -10,6 +10,7 @@
 
 @interface OpenPacket : ICBPacket
 
+- (id)initWithText:(NSString *)text;
 - (NSString *)nick;
 - (NSString *)text;
 

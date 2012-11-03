@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "DebugKit.h"
 
-
 @interface ICBProtocol : NSObject
 
 extern const int MAX_FIELDS;
@@ -20,6 +19,7 @@ extern const int MAX_PERSONAL_MESSAGE_SIZE;
 extern const int MAX_WRITE_MESSAGE_SIZE;
 
 typedef enum {
+    INVALID = ' ',
     LOGIN = 'a',
     OPEN = 'b',
     PERSONAL = 'c',
