@@ -27,7 +27,6 @@
 - (NSString *)command
 {
     NSString *command = [fields objectAtIndex:0];
-    DLog(@"CommandPacket: command=%@", command);
     return command;
 }
 
@@ -38,7 +37,6 @@
     {
         args = [fields objectAtIndex:1];
     }
-    DLog(@"CommandPacket: args=%@", args);
     return args;
 }
 

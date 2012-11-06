@@ -13,14 +13,12 @@
 - (NSString *)header
 {
     NSString *header = [fields objectAtIndex:0];
-    DLog(@"StatusPacket: header=%@", header);
     return header;
 }
 
 - (NSString *)text
 {
     NSString *text = [fields objectAtIndex:1];
-    DLog(@"StatusPacket: text=%@", text);
     return text;
 }
 

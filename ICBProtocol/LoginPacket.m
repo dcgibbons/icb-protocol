@@ -31,7 +31,6 @@
         [fields addObject:command];
         [fields addObject:password];
     }
-    DLog(@"LoginPacket: fields=%@", fields);
     return self;
 }
 

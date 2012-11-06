@@ -13,7 +13,6 @@
 - (NSString *)outputType
 {
     NSString *outputType = [fields objectAtIndex:0];
-    DLog(@"outputType='%@'", outputType);
     return [outputType substringWithRange:NSMakeRange(0, 2)];
 }
 
