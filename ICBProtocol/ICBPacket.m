@@ -86,8 +86,6 @@
 
 - (id)initWithData:(NSData *)data
 {
-//    DLog(@"initWithData:data=\n%@\n", [data hexDump]);
-    
     const void *bytes = [data bytes];
     const NSUInteger length = [data length];
     // TODO: validate length, etc.
@@ -97,7 +95,6 @@
     
     NSUInteger i, fieldStart;
     for (i = 1, fieldStart = 1; i <= length; i++) {
-//        DLog(@"i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
         const char c = ((const char *)bytes)[i];
         if (c == '\000' || c == '\001') {
             NSUInteger l = i - fieldStart;
@@ -106,20 +103,15 @@
             
             [fields addObject:s];
 
-//            DLog(@"ICBPacket: initWithData fieldStart=%u length=%u s=%@\n", 
-//                 fieldStart, l, s);
-//            
             fieldStart = i + 1;
         }
     }
-//    DLog(@"LOOP DONE i=%u fieldStart=%u length=%u\n", i, fieldStart, length);
     if (fieldStart < length)
     {
         NSString *s = [[NSString alloc]
                        initWithBytesNoCopy:(void*)&bytes[fieldStart]
                        length:length-fieldStart encoding:NSASCIIStringEncoding freeWhenDone:FALSE];
         [fields addObject:s];
-//        DLog(@"ICBPacket: initWithData added last field s=%@\n", s);
     }
 
     return self;
@@ -145,8 +137,6 @@
                                  range:NSMakeRange(0, [field length])
                         remainingRange:NULL];
 
-        DLog(@"data, success=%u field=[%lu]=%@ fields=%lu pos=%lu max=%lu used=%lu", success, i, field, n, pos, maxLength, used);
-        
         pos += used;
 
         // add a field separator if this isn't the last field
@@ -161,7 +151,6 @@
     buffer[pos] = '\000';
 
     NSData *data = [NSData dataWithBytes:buffer length:pos];
-//    DLog(@"packet data=\n%@", [data hexDump]);
     return data;
 }
 

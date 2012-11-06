@@ -22,7 +22,6 @@
 - (NSString *)errorText
 {
     NSString *errorText = [fields objectAtIndex:0];
-    DLog("ErrorPacket: errorText=%@", errorText);
     return errorText;
 }
 

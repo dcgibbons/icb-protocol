@@ -13,14 +13,12 @@
 - (NSString *)nick
 {
     NSString *nick = [fields objectAtIndex:0];
-    DLog(@"OpenPacket: nick=%@", nick);
     return nick;
 }
 
 - (NSString *)text
 {
     NSString *text = [fields objectAtIndex:1];
-    DLog(@"OpenPacket: text=%@", text);
     return text;
 }
 

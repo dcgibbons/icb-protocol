@@ -23,8 +23,6 @@
 {
     NSString *nick = [fields objectAtIndex:0];
 
-    DLog(@"BeepPacket: nick=%@", nick);
-    
     return nick;
 }
 
