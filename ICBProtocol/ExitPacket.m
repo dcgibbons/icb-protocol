@@ -10,4 +10,12 @@
 
 @implementation ExitPacket
 
+- (id)init
+{
+    if (self = [super init])
+    {
+        packetType = EXIT;
+    }
+    return self;
+}
 @end
