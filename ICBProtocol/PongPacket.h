@@ -10,4 +10,6 @@
 
 @interface PongPacket : ICBPacket
 
+- (id)init;
+
 @end

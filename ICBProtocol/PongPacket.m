@@ -10,4 +10,13 @@
 
 @implementation PongPacket
 
+- (id)init
+{
+    if (self = [super init])
+    {
+        packetType = PONG;
+    }
+    return self;
+}
+
 @end

@@ -86,34 +86,36 @@
 
 - (id)initWithData:(NSData *)data
 {
-    const void *bytes = [data bytes];
-    const NSUInteger length = [data length];
-    // TODO: validate length, etc.
-    
-    fields = [NSMutableArray arrayWithCapacity:10];
-    packetType = ((char *)bytes)[0];
-    
-    NSUInteger i, fieldStart;
-    for (i = 1, fieldStart = 1; i <= length; i++) {
-        const char c = ((const char *)bytes)[i];
-        if (c == '\000' || c == '\001') {
-            NSUInteger l = i - fieldStart;
+    if (self = [super init])
+    {
+        const void *bytes = [data bytes];
+        const NSUInteger length = [data length];
+        // TODO: validate length, etc.
+        
+        fields = [NSMutableArray arrayWithCapacity:10];
+        packetType = ((char *)bytes)[0];
+        
+        NSUInteger i, fieldStart;
+        for (i = 1, fieldStart = 1; i <= length; i++) {
+            const char c = ((const char *)bytes)[i];
+            if (c == '\000' || c == '\001') {
+                NSUInteger l = i - fieldStart;
+                NSString *s = [[NSString alloc]
+                               initWithBytes:(void*)&bytes[fieldStart] length:l encoding:NSASCIIStringEncoding];
+                
+                [fields addObject:s];
+                
+                fieldStart = i + 1;
+            }
+        }
+        if (fieldStart < length)
+        {
             NSString *s = [[NSString alloc]
-                           initWithBytes:(void*)&bytes[fieldStart] length:l encoding:NSASCIIStringEncoding];
-            
+                           initWithBytesNoCopy:(void*)&bytes[fieldStart]
+                           length:length-fieldStart encoding:NSASCIIStringEncoding freeWhenDone:FALSE];
             [fields addObject:s];
-
-            fieldStart = i + 1;
         }
     }
-    if (fieldStart < length)
-    {
-        NSString *s = [[NSString alloc]
-                       initWithBytesNoCopy:(void*)&bytes[fieldStart]
-                       length:length-fieldStart encoding:NSASCIIStringEncoding freeWhenDone:FALSE];
-        [fields addObject:s];
-    }
-
     return self;
 }
 
@@ -129,14 +131,14 @@
         
         NSUInteger used = 0;
         const NSUInteger maxLength = (MAX_PACKET_SIZE - pos);
-        BOOL success = [field getBytes:&buffer[pos]
-                             maxLength:maxLength
-                            usedLength:&used
-                              encoding:NSASCIIStringEncoding
-                               options:0
-                                 range:NSMakeRange(0, [field length])
-                        remainingRange:NULL];
-
+        (void)[field getBytes:&buffer[pos]
+                    maxLength:maxLength
+                   usedLength:&used
+                     encoding:NSASCIIStringEncoding
+                      options:0
+                        range:NSMakeRange(0, [field length])
+               remainingRange:NULL];
+        
         pos += used;
 
         // add a field separator if this isn't the last field
