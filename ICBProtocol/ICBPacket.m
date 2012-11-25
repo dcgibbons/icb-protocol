@@ -13,6 +13,7 @@
 #import "ErrorPacket.h"
 #import "ExitPacket.h"
 #import "LoginPacket.h"
+#import "NoOpPacket.h"
 #import "OpenPacket.h"
 #import "PersonalPacket.h"
 #import "PingPacket.h"
@@ -67,6 +68,7 @@
             packet = [[PongPacket alloc] initWithData:data];
             break;
         case NOOP:
+            packet = [[NoOpPacket alloc] initWithData:data];
             break;
             
     }
