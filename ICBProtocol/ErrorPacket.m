@@ -21,7 +21,7 @@
 
 - (NSString *)errorText
 {
-    NSString *errorText = [fields objectAtIndex:0];
+    NSString *errorText = fields[0];
     return errorText;
 }
 

@@ -12,13 +12,13 @@
 
 - (NSString *)header
 {
-    NSString *header = [fields objectAtIndex:0];
+    NSString *header = fields[0];
     return header;
 }
 
 - (NSString *)text
 {
-    NSString *text = [fields objectAtIndex:1];
+    NSString *text = fields[1];
     return text;
 }
 

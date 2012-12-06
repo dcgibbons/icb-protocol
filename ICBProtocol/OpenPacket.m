@@ -22,13 +22,13 @@
 
 - (NSString *)nick
 {
-    NSString *nick = [fields objectAtIndex:0];
+    NSString *nick = fields[0];
     return nick;
 }
 
 - (NSString *)text
 {
-    NSString *text = [fields objectAtIndex:1];
+    NSString *text = fields[1];
     return text;
 }
 

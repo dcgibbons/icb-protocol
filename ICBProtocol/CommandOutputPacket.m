@@ -12,53 +12,53 @@
 
 - (NSString *)outputType
 {
-    NSString *outputType = [fields objectAtIndex:0];
+    NSString *outputType = fields[0];
     return [outputType substringWithRange:NSMakeRange(0, 2)];
 }
 
 - (NSString *)output
 {
-    NSString *output = [fields objectAtIndex:1];
+    NSString *output = fields[1];
     return output;
 }
 
 - (BOOL)isModerator
 {
-    NSString *flag = [fields objectAtIndex:1];
+    NSString *flag = fields[1];
     return ([flag characterAtIndex:0] == 'm');
 }
 
 - (NSString *)nickname
 {
-    return [fields objectAtIndex:2];
+    return fields[2];
 }
 
 - (NSTimeInterval)idleTime
 {
-    NSString *idleTimeStr = [fields objectAtIndex:3];
+    NSString *idleTimeStr = fields[3];
     return [idleTimeStr doubleValue];
 }
 
 - (NSDate *)signOnTime
 {
-    NSString *signOnTimeStr = [fields objectAtIndex:5];
+    NSString *signOnTimeStr = fields[5];
     NSTimeInterval timeInterval = [signOnTimeStr doubleValue];
     return [NSDate dateWithTimeIntervalSince1970:timeInterval];
 }
 
 - (NSString *)username
 {
-    return [fields objectAtIndex:6];
+    return fields[6];
 }
 
 - (NSString *)hostname
 {
-    return [fields objectAtIndex:7];
+    return fields[7];
 }
 
 - (NSString *)status
 {
-    return [fields objectAtIndex:8];
+    return fields[8];
 }
 
 @end

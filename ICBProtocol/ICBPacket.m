@@ -129,7 +129,7 @@
     NSUInteger pos = 1;
     for (NSUInteger i = 0, n = [fields count]; i < n; i++)
     {
-        NSString *field = [fields objectAtIndex:i];
+        NSString *field = fields[i];
         
         NSUInteger used = 0;
         const NSUInteger maxLength = (MAX_PACKET_SIZE - pos);
@@ -163,7 +163,7 @@
     NSString *field = nil;
     if (index < [fields count])
     {
-        field = [fields objectAtIndex:index];
+        field = fields[index];
     }
     return field;
 }

@@ -21,7 +21,7 @@
 
 - (NSString *)nick
 {
-    NSString *nick = [fields objectAtIndex:0];
+    NSString *nick = fields[0];
 
     return nick;
 }

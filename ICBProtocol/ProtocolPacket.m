@@ -21,19 +21,19 @@
 
 - (int)protocolLevel
 {
-    NSString *protocolLevel = [fields objectAtIndex:0];
+    NSString *protocolLevel = fields[0];
     return [protocolLevel intValue];
 }
 
 - (NSString *)serverName
 {
-    NSString *serverName = [fields objectAtIndex:1];
+    NSString *serverName = fields[1];
     return serverName;
 }
 
 - (NSString *)serverDescription
 {
-    NSString *serverDescription = [fields objectAtIndex:2];
+    NSString *serverDescription = fields[2];
     return serverDescription;
 }
 

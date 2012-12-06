@@ -26,7 +26,7 @@
 
 - (NSString *)command
 {
-    NSString *command = [fields objectAtIndex:0];
+    NSString *command = fields[0];
     return command;
 }
 
@@ -35,7 +35,7 @@
     NSString *args = nil;
     if ([fields count] > 1)
     {
-        args = [fields objectAtIndex:1];
+        args = fields[1];
     }
     return args;
 }
