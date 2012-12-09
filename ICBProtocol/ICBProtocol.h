@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DebugKitFramework/DebugKit.h"
 
 @interface ICBProtocol : NSObject
 
