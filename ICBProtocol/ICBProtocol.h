@@ -17,22 +17,19 @@ extern const int MAX_OPEN_MESSAGE_SIZE;
 extern const int MAX_PERSONAL_MESSAGE_SIZE;
 extern const int MAX_WRITE_MESSAGE_SIZE;
 
-typedef enum {
-    INVALID = ' ',
-    LOGIN = 'a',
-    OPEN = 'b',
-    PERSONAL = 'c',
-    STATUS = 'd',
-    ERROR = 'e',
-    IMPORTANT = 'f',
-    EXIT = 'g',
-    COMMAND = 'h',
-    COMMAND_OUT = 'i',
-    PROTOCOL = 'j',
-    BEEP = 'k',
-    PING = 'l',
-    PONG = 'm',
-    NOOP = 'n'
-} kPacketType;
-
 @end
+
+#import "ICBPacket.h"
+#import "BeepPacket.h"
+#import "CommandPacket.h"
+#import "CommandOutputPacket.h"
+#import "ErrorPacket.h"
+#import "ExitPacket.h"
+#import "LoginPacket.h"
+#import "NoOpPacket.h"
+#import "PersonalPacket.h"
+#import "PingPacket.h"
+#import "PongPacket.h"
+#import "ProtocolPacket.h"
+#import "OpenPacket.h"
+#import "StatusPacket.h"

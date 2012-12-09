@@ -7,19 +7,7 @@
 //
 
 #import "ICBPacket.h"
-#import "BeepPacket.h"
-#import "CommandPacket.h"
-#import "CommandOutputPacket.h"
-#import "ErrorPacket.h"
-#import "ExitPacket.h"
-#import "LoginPacket.h"
-#import "NoOpPacket.h"
-#import "OpenPacket.h"
-#import "PersonalPacket.h"
-#import "PingPacket.h"
-#import "PongPacket.h"
-#import "ProtocolPacket.h"
-#import "StatusPacket.h"
+#import "ICBProtocol.h"
 
 @implementation ICBPacket
 

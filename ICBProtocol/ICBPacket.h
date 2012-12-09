@@ -8,7 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-#import "ICBProtocol.h"
+typedef enum : uint8_t {
+    INVALID = ' ',
+    LOGIN = 'a',
+    OPEN = 'b',
+    PERSONAL = 'c',
+    STATUS = 'd',
+    ERROR = 'e',
+    IMPORTANT = 'f',
+    EXIT = 'g',
+    COMMAND = 'h',
+    COMMAND_OUT = 'i',
+    PROTOCOL = 'j',
+    BEEP = 'k',
+    PING = 'l',
+    PONG = 'm',
+    NOOP = 'n'
+} kPacketType;
 
 @interface ICBPacket : NSObject
 {
