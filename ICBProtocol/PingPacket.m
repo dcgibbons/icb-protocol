@@ -10,4 +10,13 @@
 
 @implementation PingPacket
 
+- (id)init
+{
+    if (self = [super init])
+    {
+        packetType = PING;
+    }
+    return self;
+}
+
 @end

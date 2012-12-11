@@ -10,4 +10,6 @@
 
 @interface PingPacket : ICBPacket
 
+- (id)init;
+
 @end
