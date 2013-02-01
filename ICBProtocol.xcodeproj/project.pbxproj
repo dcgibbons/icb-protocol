@@ -48,7 +48,6 @@
 		C2F1984D163F6F59006D48A4 /* StatusPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = C2F19832163F6F59006D48A4 /* StatusPacket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2F1984E163F6F59006D48A4 /* StatusPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F19833163F6F59006D48A4 /* StatusPacket.m */; };
 		C2F19855163F6FAE006D48A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2F19850163F6FAE006D48A4 /* InfoPlist.strings */; };
-		C2F19856163F6FAE006D48A4 /* ICBProtocolTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2F19852163F6FAE006D48A4 /* ICBProtocolTests-Info.plist */; };
 		C2F19857163F6FAE006D48A4 /* ICBProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F19854163F6FAE006D48A4 /* ICBProtocolTests.m */; };
 		C2F19984163F8C11006D48A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F1979C163F6D84006D48A4 /* Cocoa.framework */; };
 		C2F19995163F8C11006D48A4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F197AE163F6D84006D48A4 /* SenTestingKit.framework */; };
@@ -430,7 +429,7 @@
 		C2F19790163F6D84006D48A4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Nuclear Bunny Studios, LLC";
 			};
 			buildConfigurationList = C2F19793163F6D84006D48A4 /* Build configuration list for PBXProject "ICBProtocol" */;
@@ -459,7 +458,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2F19855163F6FAE006D48A4 /* InfoPlist.strings in Resources */,
-				C2F19856163F6FAE006D48A4 /* ICBProtocolTests-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +651,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICBProtocol/ICBProtocol-Prefix.pch";
@@ -665,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICBProtocol/ICBProtocol-Prefix.pch";
